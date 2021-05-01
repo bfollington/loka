@@ -1,0 +1,457 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; nREPL Connection was closed
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.8.3"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.25.11"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉deity-gen.core꞉> 
+; Jack-in done.
+clj꞉deity-gen.core꞉> 
+; Syntax error compiling at (src/deity_gen/core.clj:15:1).
+; No such namespace: mg
+clj꞉deity-gen.core꞉> 
+nil
+clj꞉deity-gen.core꞉> 
+nil
+clj꞉deity-gen.core꞉> 
+; Syntax error compiling at (src/deity_gen/core.clj:15:1).
+; Unable to resolve symbol: Entity in this context
+clj꞉deity-gen.core꞉> 
+#'deity-gen.core/Entity
+clj꞉deity-gen.core꞉> 
+{:name "gNm2", :age -5502}
+clj꞉deity-gen.core꞉> 
+{:name "5zo6d2JG6", :age -3343823}
+clj꞉deity-gen.core꞉> 
+{:name "FD6251q1Az", :age 196025}
+clj꞉deity-gen.core꞉> 
+; Syntax error compiling at (src/deity_gen/core.clj:18:1).
+; Unable to resolve symbol: Body in this context
+clj꞉deity-gen.core꞉> 
+#'deity-gen.core/Head
+clj꞉deity-gen.core꞉> 
+#'deity-gen.core/Body
+clj꞉deity-gen.core꞉> 
+#'deity-gen.core/Entity
+clj꞉deity-gen.core꞉> 
+{:name "sLnTg45d9mhVK6T6bWuFlcr",
+ :age -19161708,
+ :body
+ {:heads
+  [{:test -23329359}
+   {:test -507977}
+   {:test -6130}
+   {:test 3665}
+   {:test 27}
+   {:test 0}
+   {:test 345646}
+   {:test 3}
+   {:test -24376}
+   {:test 879520}
+   {:test -4007461}
+   {:test -2277564}
+   {:test -472410}
+   {:test -8856}
+   {:test 13105211}
+   {:test -52693646}
+   {:test -57166283}
+   {:test 3}
+   {:test 118874}
+   {:test 19359}
+   {:test -4}
+   {:test -57}
+   {:test 140}]}}
+clj꞉deity-gen.core꞉> 
+#'deity-gen.core/Body
+clj꞉deity-gen.core꞉> 
+#'deity-gen.core/Entity
+clj꞉deity-gen.core꞉> 
+{:name "YY8K6o1I78GWVWn70FkQn2UDuVS6o2", :age 1015033, :body {:heads [{:test 1} {:test -100394283}]}}
+clj꞉deity-gen.core꞉> 
+{:name "FH", :age -900, :body {:heads [{:test -1548}]}}
+clj꞉deity-gen.core꞉> 
+{:name "4MuKzp65wW3OY2", :age -264897806, :body {:heads [{:test -1876633}]}}
+clj꞉deity-gen.core꞉> 
+{:name "Q3984y732TrXV227i9Z0wGqsegPmv", :age 761401, :body {:heads []}}
+clj꞉deity-gen.core꞉> 
+{:name "F7YV0D9M", :age -1693, :body {:heads [{:test 868930} {:test -1}]}}
+clj꞉deity-gen.core꞉> 
+{:name "efDTwWkY42Fnha4P", :age 78, :body {:heads [{:test -2648}]}}
+clj꞉deity-gen.core꞉> 
+{:name "790YQm6j2CJO2PYT4mv", :age 1, :body {:heads [{:test -184435}]}}
+clj꞉deity-gen.core꞉> 
+{:name "x1rpVR7E766CEI2ZTinHXyCs61Z", :age 0, :body {:heads [{:test 57}]}}
+clj꞉deity-gen.core꞉> 
+{:name "JQUt0t", :age -33760, :body {:heads [{:test -12009595} {:test -10} {:test -3} {:test -213}]}}
+clj꞉deity-gen.core꞉> 
+{:name "9", :age -3640, :body {:heads []}}
+clj꞉deity-gen.core꞉> 
+{:name "D0Z580Nufk646CNN44XZ6l", :age -7444, :body {:heads [{:test 63399}]}}
+clj꞉deity-gen.core꞉> 
+#'deity-gen.core/Body
+clj꞉deity-gen.core꞉> 
+#'deity-gen.core/Entity
+clj꞉deity-gen.core꞉> 
+{:name "V", :age -1534295, :body {:heads [{:test 42044} {:test 227} {:test -2}]}}
+clj꞉deity-gen.core꞉> 
+#'deity-gen.core/foo
+clj꞉deity-gen.core꞉> 
+{:name "LryDNNDbC17kVHOnvRd0QcuEy4dq1r",
+ :age -205,
+ :body {:heads [{:test 329271173} {:test -768} {:test -57094169} {:test 23}]}}
+clj꞉deity-gen.core꞉> 
+{:name "CdVDt6A4rKg2C7u9", :age -3, :body {:heads [{:eyes {:color :red, :pupil-shape :cross-shaped}}]}}
+clj꞉deity-gen.core꞉> 
+{:name "Jsh3c5LyF6N9WQ3LdXrYXi",
+ :age -51,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :grey, :pupil-shape :cross-shaped}
+     {:color :grey, :pupil-shape :square}
+     {:color :brown, :pupil-shape :square}
+     {:color :black, :pupil-shape :round}
+     {:color :orange, :pupil-shape :triangle}
+     {:color :green, :pupil-shape :triangle}
+     {:color :green, :pupil-shape :round}]}
+   {:eyes [{:color :green, :pupil-shape :round}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "6eUYAzPq20ITA",
+ :age 159,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :black, :pupil-shape :square}
+     {:color :green, :pupil-shape :square}
+     {:color :blue, :pupil-shape :square}
+     {:color :black, :pupil-shape :cross-shaped}
+     {:color :red, :pupil-shape :triangle}
+     {:color :blue, :pupil-shape :triangle}
+     {:color :black, :pupil-shape :square}
+     {:color :grey, :pupil-shape :square}]}
+   {:eyes
+    [{:color :black, :pupil-shape :cross-shaped}
+     {:color :blue, :pupil-shape :round}
+     {:color :black, :pupil-shape :cross-shaped}]}
+   {:eyes
+    [{:color :grey, :pupil-shape :cross-shaped}
+     {:color :brown, :pupil-shape :round}
+     {:color :red, :pupil-shape :round}
+     {:color :orange, :pupil-shape :square}
+     {:color :grey, :pupil-shape :square}
+     {:color :black, :pupil-shape :round}
+     {:color :blue, :pupil-shape :cross-shaped}
+     {:color :brown, :pupil-shape :square}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "G51Vr7J12T9lV8u",
+ :age 2,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :black, :pupil-shape :cross-shaped}
+     {:color :grey, :pupil-shape :cross-shaped}
+     {:color :grey, :pupil-shape :cross-shaped}
+     {:color :blue, :pupil-shape :round}
+     {:color :brown, :pupil-shape :square}
+     {:color :black, :pupil-shape :square}
+     {:color :grey, :pupil-shape :cross-shaped}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "yut0",
+ :age 2,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :brown, :pupil-shape :triangle}
+     {:color :grey, :pupil-shape :round}
+     {:color :brown, :pupil-shape :square}]}
+   {:eyes
+    [{:color :green, :pupil-shape :square}
+     {:color :grey, :pupil-shape :round}
+     {:color :blue, :pupil-shape :cross-shaped}]}
+   {:eyes [{:color :grey, :pupil-shape :triangle} {:color :green, :pupil-shape :round}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "Jr0e",
+ :age 3062692,
+ :body
+ {:heads
+  [{:eyes [{:color :brown, :pupil-shape :triangle}]}
+   {:eyes
+    [{:color :red, :pupil-shape :triangle}
+     {:color :green, :pupil-shape :triangle}
+     {:color :blue, :pupil-shape :square}
+     {:color :green, :pupil-shape :cross-shaped}
+     {:color :black, :pupil-shape :triangle}
+     {:color :grey, :pupil-shape :round}
+     {:color :black, :pupil-shape :round}
+     {:color :brown, :pupil-shape :round}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "Vt1fFkC059oTPT3",
+ :age 56,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :blue, :pupil-shape :square}
+     {:color :blue, :pupil-shape :square}
+     {:color :orange, :pupil-shape :triangle}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "3N5iFE",
+ :age 2035268,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :black, :pupil-shape :square}
+     {:color :grey, :pupil-shape :square}
+     {:color :orange, :pupil-shape :cross-shaped}]}
+   {:eyes
+    [{:color :blue, :pupil-shape :square}
+     {:color :orange, :pupil-shape :square}
+     {:color :green, :pupil-shape :triangle}
+     {:color :orange, :pupil-shape :round}
+     {:color :green, :pupil-shape :square}
+     {:color :green, :pupil-shape :round}
+     {:color :green, :pupil-shape :triangle}
+     {:color :blue, :pupil-shape :round}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "0GSsjUJ",
+ :age 32,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :blue, :pupil-shape :cross-shaped}
+     {:color :grey, :pupil-shape :square}
+     {:color :brown, :pupil-shape :round}
+     {:color :green, :pupil-shape :round}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "FgHlGB3jYCXiNA2",
+ :age 89357,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :brown, :pupil-shape :triangle}
+     {:color :brown, :pupil-shape :square}
+     {:color :brown, :pupil-shape :square}
+     {:color :orange, :pupil-shape :square}
+     {:color :brown, :pupil-shape :triangle}
+     {:color :red, :pupil-shape :cross-shaped}
+     {:color :black, :pupil-shape :round}]}
+   {:eyes
+    [{:color :black, :pupil-shape :triangle}
+     {:color :blue, :pupil-shape :square}
+     {:color :brown, :pupil-shape :cross-shaped}
+     {:color :orange, :pupil-shape :square}
+     {:color :green, :pupil-shape :cross-shaped}
+     {:color :red, :pupil-shape :square}
+     {:color :black, :pupil-shape :triangle}
+     {:color :brown, :pupil-shape :square}]}
+   {:eyes
+    [{:color :grey, :pupil-shape :cross-shaped}
+     {:color :blue, :pupil-shape :triangle}
+     {:color :orange, :pupil-shape :triangle}
+     {:color :orange, :pupil-shape :cross-shaped}]}
+   {:eyes
+    [{:color :grey, :pupil-shape :round}
+     {:color :orange, :pupil-shape :round}
+     {:color :blue, :pupil-shape :cross-shaped}
+     {:color :orange, :pupil-shape :square}
+     {:color :red, :pupil-shape :triangle}
+     {:color :orange, :pupil-shape :cross-shaped}
+     {:color :orange, :pupil-shape :round}
+     {:color :grey, :pupil-shape :square}]}]}}
+clj꞉deity-gen.core꞉> 
+9999
+clj꞉deity-gen.core꞉> 
+{:name "7UE4mKi5jDID84GA",
+ :age 10,
+ :body
+ {:heads
+  [{:eyes [{:color :brown, :pupil-shape :cross-shaped}]}
+   {:eyes
+    [{:color :red, :pupil-shape :triangle}
+     {:color :grey, :pupil-shape :square}
+     {:color :black, :pupil-shape :round}
+     {:color :grey, :pupil-shape :triangle}]}
+   {:eyes
+    [{:color :orange, :pupil-shape :triangle}
+     {:color :brown, :pupil-shape :triangle}
+     {:color :blue, :pupil-shape :triangle}
+     {:color :blue, :pupil-shape :cross-shaped}
+     {:color :grey, :pupil-shape :round}
+     {:color :blue, :pupil-shape :round}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "aa4JII16IzI3VN99",
+ :age 9159,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :brown, :pupil-shape :square}
+     {:color :green, :pupil-shape :triangle}
+     {:color :grey, :pupil-shape :triangle}]}
+   {:eyes
+    [{:color :orange, :pupil-shape :triangle}
+     {:color :red, :pupil-shape :square}
+     {:color :black, :pupil-shape :round}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "XxdzoK",
+ :age 393,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :orange, :pupil-shape :round} {:color :black, :pupil-shape :square} {:color :blue, :pupil-shape :square}]}
+   {:eyes
+    [{:color :green, :pupil-shape :square}
+     {:color :blue, :pupil-shape :triangle}
+     {:color :orange, :pupil-shape :cross-shaped}
+     {:color :orange, :pupil-shape :cross-shaped}
+     {:color :black, :pupil-shape :cross-shaped}
+     {:color :red, :pupil-shape :cross-shaped}
+     {:color :orange, :pupil-shape :triangle}]}
+   {:eyes
+    [{:color :brown, :pupil-shape :triangle}
+     {:color :orange, :pupil-shape :square}
+     {:color :red, :pupil-shape :square}
+     {:color :orange, :pupil-shape :square}
+     {:color :orange, :pupil-shape :triangle}
+     {:color :red, :pupil-shape :round}
+     {:color :black, :pupil-shape :triangle}
+     {:color :blue, :pupil-shape :round}]}
+   {:eyes
+    [{:color :brown, :pupil-shape :square}
+     {:color :grey, :pupil-shape :cross-shaped}
+     {:color :brown, :pupil-shape :round}
+     {:color :blue, :pupil-shape :round}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "PTTklrQcW7O35w8F39U77H8bj5OX",
+ :age 396,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :green, :pupil-shape :square}
+     {:color :black, :pupil-shape :cross-shaped}
+     {:color :blue, :pupil-shape :triangle}
+     {:color :red, :pupil-shape :round}
+     {:color :brown, :pupil-shape :round}
+     {:color :green, :pupil-shape :triangle}
+     {:color :black, :pupil-shape :square}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "i8B5QFAe841jDiGi5NKVBQxn85",
+ :age 7374,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :brown, :pupil-shape :cross-shaped}
+     {:color :green, :pupil-shape :triangle}
+     {:color :blue, :pupil-shape :square}
+     {:color :red, :pupil-shape :cross-shaped}
+     {:color :black, :pupil-shape :square}
+     {:color :grey, :pupil-shape :round}
+     {:color :blue, :pupil-shape :cross-shaped}]}
+   {:eyes
+    [{:color :black, :pupil-shape :triangle}
+     {:color :grey, :pupil-shape :round}
+     {:color :green, :pupil-shape :cross-shaped}
+     {:color :red, :pupil-shape :triangle}]}
+   {:eyes
+    [{:color :grey, :pupil-shape :round}
+     {:color :green, :pupil-shape :square}
+     {:color :green, :pupil-shape :cross-shaped}
+     {:color :orange, :pupil-shape :triangle}
+     {:color :blue, :pupil-shape :square}]}
+   {:eyes [{:color :black, :pupil-shape :square}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "ZYMhFwW4n4vTlXw",
+ :age 6663,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :green, :pupil-shape :round}
+     {:color :black, :pupil-shape :cross-shaped}
+     {:color :blue, :pupil-shape :cross-shaped}
+     {:color :grey, :pupil-shape :cross-shaped}
+     {:color :red, :pupil-shape :cross-shaped}
+     {:color :red, :pupil-shape :triangle}
+     {:color :grey, :pupil-shape :cross-shaped}]}
+   {:eyes
+    [{:color :grey, :pupil-shape :cross-shaped}
+     {:color :black, :pupil-shape :cross-shaped}
+     {:color :grey, :pupil-shape :square}]}
+   {:eyes
+    [{:color :orange, :pupil-shape :cross-shaped}
+     {:color :red, :pupil-shape :round}
+     {:color :blue, :pupil-shape :cross-shaped}
+     {:color :orange, :pupil-shape :triangle}
+     {:color :blue, :pupil-shape :cross-shaped}
+     {:color :orange, :pupil-shape :cross-shaped}
+     {:color :blue, :pupil-shape :triangle}
+     {:color :red, :pupil-shape :square}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "AITfThJMoK25KKI9DVqa",
+ :age 1,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :red, :pupil-shape :cross-shaped}
+     {:color :red, :pupil-shape :round}
+     {:color :brown, :pupil-shape :triangle}
+     {:color :brown, :pupil-shape :square}
+     {:color :blue, :pupil-shape :cross-shaped}
+     {:color :orange, :pupil-shape :cross-shaped}
+     {:color :brown, :pupil-shape :square}]}
+   {:eyes
+    [{:color :red, :pupil-shape :round}
+     {:color :black, :pupil-shape :square}
+     {:color :green, :pupil-shape :round}
+     {:color :green, :pupil-shape :round}
+     {:color :orange, :pupil-shape :square}
+     {:color :black, :pupil-shape :triangle}]}
+   {:eyes [{:color :grey, :pupil-shape :square} {:color :red, :pupil-shape :triangle}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "hM5",
+ :age 63,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :blue, :pupil-shape :square}
+     {:color :green, :pupil-shape :triangle}
+     {:color :black, :pupil-shape :cross-shaped}
+     {:color :green, :pupil-shape :round}]}]}}
+clj꞉deity-gen.core꞉> 
+{:name "W1cmw162lPkO5RVRQ1kZ36H6M4L",
+ :age 29,
+ :body
+ {:heads
+  [{:eyes
+    [{:color :grey, :pupil-shape :square}
+     {:color :grey, :pupil-shape :triangle}
+     {:color :grey, :pupil-shape :triangle}
+     {:color :brown, :pupil-shape :round}
+     {:color :black, :pupil-shape :cross-shaped}
+     {:color :black, :pupil-shape :triangle}
+     {:color :orange, :pupil-shape :cross-shaped}]}
+   {:eyes [{:color :black, :pupil-shape :round}]}
+   {:eyes
+    [{:color :orange, :pupil-shape :square}
+     {:color :blue, :pupil-shape :square}
+     {:color :black, :pupil-shape :round}
+     {:color :grey, :pupil-shape :square}]}
+   {:eyes
+    [{:color :blue, :pupil-shape :square}
+     {:color :red, :pupil-shape :square}
+     {:color :grey, :pupil-shape :cross-shaped}
+     {:color :orange, :pupil-shape :round}
+     {:color :blue, :pupil-shape :round}
+     {:color :brown, :pupil-shape :square}
+     {:color :black, :pupil-shape :triangle}
+     {:color :orange, :pupil-shape :cross-shaped}]}]}}
+clj꞉deity-gen.core꞉> 
